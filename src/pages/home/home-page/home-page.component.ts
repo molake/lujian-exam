@@ -22,7 +22,7 @@ export class HomePageComponent implements OnInit {
   
   getmovies(){
      this.movies = [
-      {movieName:"星际特工：千星之城",mark:7.0,director:"吕克·贝松",year:2017},
+      {movieName:"星际特工:千星之城",mark:7.0,director:"吕克·贝松",year:2017},
       {movieName:"战狼2",mark:7.4,director:"吴京",year:2017},
       {movieName:"敦刻尔克",mark:8.3,director:"克里斯托弗·诺兰",year:2017},
       {movieName:"目击者之追凶",mark:8.1,director:" 程伟豪",year:2017},
@@ -32,7 +32,7 @@ export class HomePageComponent implements OnInit {
     this.firstLine =`第一个联系人是：${this.movies[0].movieName}`
   }
 
-  addContact(){
+  addMovie(){
     let newMovie = {
       movieName:"猎杀星期一",
       mark:6.6,
